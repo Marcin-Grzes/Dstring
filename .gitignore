@@ -1,0 +1,52 @@
+cmake-build-debug/
+build/
+# Ignorowanie katalogu .idea (ustawienia projektu CLion)
+.idea/
+
+# Ignorowanie plików CMake generowanych przez CLion
+cmake-build-*/
+
+# Ignorowanie plików konfiguracyjnych CLion
+*.iml
+*.iws
+
+# Ignorowanie plików systemowych i katalogów
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików kompilacji i artefaktów binarnych
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# Ignorowanie plików dziennika i tymczasowych
+*.log
+*.tmp
+
+# Ignorowanie plików i katalogów generowanych przez narzędzia budowania
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignorowanie plików generowanych przez narzędzia analizy kodu
+.clangd/
+compile_commands.json
+
+# Ignorowanie plików generowanych przez GDB
+*.gdb
+
+# Ignorowanie plików projektu QtCreator (jeśli korzystasz z Qt)
+*.pro.user
+*.pro.user.*
+
+# Ignorowanie plików konfiguracyjnych systemu
+*.swp
+*.swo
